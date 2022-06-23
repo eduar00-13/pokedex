@@ -43,7 +43,7 @@ function Card({ pokemon }) {
                     })
                 }
             </div>
-            <div className="Card__info">
+            <div className="Card__info"> 
             <div className="Card__data">
                     <p className="title">Id = {pokemon.id}</p>   
                 </div>
@@ -54,7 +54,7 @@ function Card({ pokemon }) {
                     <p className="title">Hp</p>
                     <p className="base_stat">{pokemon.stats[0].base_stat}</p>
                 </div>
-                <div className="Card__data col-sm-6">
+                <div className="Card__data">
                     <p className="title">Weight</p>
                     <p>{pokemon.weight}</p>
                 </div>
