@@ -70,7 +70,7 @@ function App() {
   // console.log(pokemonData);
   return (
     <>
-      { loading ? <h1>Loading...</h1> : (
+      { loading ? <h1>Loading</h1> : (
         <>
           <div className="grid-container">
             {pokemonData.map((pokemon, i) => {
